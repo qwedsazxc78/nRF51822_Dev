@@ -1,0 +1,22 @@
+--cpu Cortex-M4.fp
+".\objects\main.o"
+".\objects\nrf_delay.o"
+".\objects\nrf_drv_wdt.o"
+".\objects\nrf_drv_clock.o"
+".\objects\nrf_drv_gpiote.o"
+".\objects\nrf_nvic.o"
+".\objects\nrf_drv_common.o"
+".\objects\nrf_soc.o"
+".\objects\bsp.o"
+".\objects\app_error.o"
+".\objects\app_error_weak.o"
+".\objects\app_button.o"
+".\objects\app_timer.o"
+".\objects\app_util_platform.o"
+".\objects\nrf_assert.o"
+".\objects\arm_startup_nrf52.o"
+".\objects\system_nrf52.o"
+--library_type=microlib --strict --scatter ".\Objects\wdt.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\wdt.map" -o .\Objects\wdt.axf

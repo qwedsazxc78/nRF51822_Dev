@@ -1,0 +1,13 @@
+--cpu Cortex-M4.fp
+".\objects\main.o"
+".\objects\nrf_drv_common.o"
+".\objects\nrf_drv_timer.o"
+".\objects\app_error.o"
+".\objects\app_error_weak.o"
+".\objects\nrf_assert.o"
+".\objects\arm_startup_nrf52.o"
+".\objects\system_nrf52.o"
+--library_type=microlib --strict --scatter ".\Objects\timer.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\timer.map" -o .\Objects\timer.axf
