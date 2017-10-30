@@ -1,0 +1,11 @@
+--cpu Cortex-M4.fp
+".\objects\main.o"
+".\objects\nrf_delay.o"
+".\objects\oled.o"
+".\objects\oledfont.o"
+".\objects\arm_startup_nrf52.o"
+".\objects\system_nrf52.o"
+--library_type=microlib --strict --scatter ".\Objects\rgbled.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\rgbled.map" -o .\Objects\rgbled.axf

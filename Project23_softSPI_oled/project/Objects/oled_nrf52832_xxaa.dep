@@ -1,0 +1,74 @@
+Dependencies for Project 'oled', Target 'nrf52832_xxaa': (DO NOT MODIFY !)
+F (.\main.c)(0x58063352)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\components\drivers_nrf\delay -I..\components\drivers_nrf\hal -I..\components\drivers_nrf\common -I..\components\drivers_nrf\uart -I..\ikm -I..\bsp -I..\.. -I..\components\libraries\uart -I..\components\libraries\util -I..\components\drivers_nrf\config -I..\components\drivers_nrf\nrf_soc_nosd -I..\components\toolchain -I..\components\libraries\fifo -I..\config-I C:\Users\admin\Documents\GitSource\nRF51822_Dev\Project23_softSPI_oled\project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10040 -DNRF52-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (..\components\drivers_nrf\delay\nrf_delay.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf52.h)(0x582EAF22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\system_nrf52.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf52_bitfields.h)(0x582EAF22)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf51_to_nrf52.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf52_name_change.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\compiler_abstraction.h)(0x582EAF28)
+I (..\components\drivers_nrf\hal\nrf_gpio.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AEF5F2)
+I (..\bsp\boards.h)(0x56E1A84F)
+I (..\bsp\pca10040.h)(0x56E1A84F)
+I (..\ikm\oled.h)(0x58063296)
+I (..\ikm\OLEDFONT.h)(0x55A61A1C)
+F (..\components\drivers_nrf\delay\nrf_delay.c)(0x56E1A84E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\components\drivers_nrf\delay -I..\components\drivers_nrf\hal -I..\components\drivers_nrf\common -I..\components\drivers_nrf\uart -I..\ikm -I..\bsp -I..\.. -I..\components\libraries\uart -I..\components\libraries\util -I..\components\drivers_nrf\config -I..\components\drivers_nrf\nrf_soc_nosd -I..\components\toolchain -I..\components\libraries\fifo -I..\config-I C:\Users\admin\Documents\GitSource\nRF51822_Dev\Project23_softSPI_oled\project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10040 -DNRF52-o .\objects\nrf_delay.o --omf_browse .\objects\nrf_delay.crf --depend .\objects\nrf_delay.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\compiler_abstraction.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf52.h)(0x582EAF22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\system_nrf52.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf52_bitfields.h)(0x582EAF22)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf51_to_nrf52.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf52_name_change.h)(0x582EAF28)
+I (..\components\drivers_nrf\delay\nrf_delay.h)(0x56E1A84E)
+F (..\ikm\oled.c)(0x55A62B21)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\components\drivers_nrf\delay -I..\components\drivers_nrf\hal -I..\components\drivers_nrf\common -I..\components\drivers_nrf\uart -I..\ikm -I..\bsp -I..\.. -I..\components\libraries\uart -I..\components\libraries\util -I..\components\drivers_nrf\config -I..\components\drivers_nrf\nrf_soc_nosd -I..\components\toolchain -I..\components\libraries\fifo -I..\config-I C:\Users\admin\Documents\GitSource\nRF51822_Dev\Project23_softSPI_oled\project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10040 -DNRF52-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
+I (..\components\drivers_nrf\delay\nrf_delay.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf52.h)(0x582EAF22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\system_nrf52.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf52_bitfields.h)(0x582EAF22)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf51_to_nrf52.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf52_name_change.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\compiler_abstraction.h)(0x582EAF28)
+I (..\ikm\oled.h)(0x58063296)
+I (..\components\drivers_nrf\hal\nrf_gpio.h)(0x56E1A84E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AEF5F2)
+I (..\ikm\OLEDFONT.h)(0x55A61A1C)
+F (..\ikm\oledfont.c)(0x55A61E94)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\components\drivers_nrf\delay -I..\components\drivers_nrf\hal -I..\components\drivers_nrf\common -I..\components\drivers_nrf\uart -I..\ikm -I..\bsp -I..\.. -I..\components\libraries\uart -I..\components\libraries\util -I..\components\drivers_nrf\config -I..\components\drivers_nrf\nrf_soc_nosd -I..\components\toolchain -I..\components\libraries\fifo -I..\config-I C:\Users\admin\Documents\GitSource\nRF51822_Dev\Project23_softSPI_oled\project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10040 -DNRF52-o .\objects\oledfont.o --omf_browse .\objects\oledfont.crf --depend .\objects\oledfont.d)
+F (RTE\Device\nRF52832_xxAA\arm_startup_nrf52.s)(0x56CC2CE4)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\admin\Documents\GitSource\nRF51822_Dev\Project23_softSPI_oled\project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include--pd "__UVISION_VERSION SETA 516" --pd "_RTE_ SETA 1" --pd "NRF52 SETA 1"--list .\listings\arm_startup_nrf52.lst --xref -o .\objects\arm_startup_nrf52.o --depend .\objects\arm_startup_nrf52.d)
+F (RTE\Device\nRF52832_xxAA\system_nrf52.c)(0x56CC2CE4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\components\drivers_nrf\delay -I..\components\drivers_nrf\hal -I..\components\drivers_nrf\common -I..\components\drivers_nrf\uart -I..\ikm -I..\bsp -I..\.. -I..\components\libraries\uart -I..\components\libraries\util -I..\components\drivers_nrf\config -I..\components\drivers_nrf\nrf_soc_nosd -I..\components\toolchain -I..\components\libraries\fifo -I..\config-I C:\Users\admin\Documents\GitSource\nRF51822_Dev\Project23_softSPI_oled\project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DBOARD_PCA10040 -DNRF52-o .\objects\system_nrf52.o --omf_browse .\objects\system_nrf52.crf --depend .\objects\system_nrf52.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AEF5F2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf52.h)(0x582EAF22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\system_nrf52.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf52_bitfields.h)(0x582EAF22)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf51_to_nrf52.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\nrf52_name_change.h)(0x582EAF28)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include\compiler_abstraction.h)(0x582EAF28)
