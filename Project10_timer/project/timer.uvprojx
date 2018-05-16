@@ -373,7 +373,7 @@
               <MiscControls></MiscControls>
               <Define>BSP_DEFINES_ONLY BOARD_PCA10040 NRF52</Define>
               <Undefine></Undefine>
-              <IncludePath>..\components\drivers_nrf\hal;..\components\drivers_nrf\common;..\bsp;..\..;..\components\libraries\util;..\config;..\components\drivers_nrf\nrf_soc_nosd;..\components\toolchain;..\components\drivers_nrf\timer;..\config;..\components\drivers_nrf\config</IncludePath>
+              <IncludePath>..\components\toolchain;..\components\drivers_nrf\hal;..\components\drivers_nrf\common;..\components\drivers_nrf\nrf_soc_nosd;..\components\drivers_nrf\config;..\components\drivers_nrf\timer;..\components\libraries\util;..\bsp;..\..;..\config</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
